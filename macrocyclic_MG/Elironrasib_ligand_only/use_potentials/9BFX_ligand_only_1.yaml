@@ -1,0 +1,4 @@
+sequences:
+  - ligand:
+      id: [A]
+      ccd: A1AOD_0

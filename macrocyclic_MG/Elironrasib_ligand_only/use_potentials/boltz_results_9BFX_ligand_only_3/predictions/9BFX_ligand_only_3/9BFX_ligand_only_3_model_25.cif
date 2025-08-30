@@ -1,0 +1,218 @@
+data_model
+_entry.id model
+_struct.entry_id model
+_struct.pdbx_model_details .
+_struct.pdbx_structure_determination_methodology computational
+_struct.title .
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/d18ba38/base/mmcif_ma-core.dic
+_audit_conform.dict_name mmcif_ma.dic
+_audit_conform.dict_version 1.4.6
+#
+loop_
+_chem_comp.id
+_chem_comp.type
+_chem_comp.name
+_chem_comp.formula
+_chem_comp.formula_weight
+_chem_comp.ma_provenance
+A1AOD non-polymer . . . 'CCD Core'
+#
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.details
+1 non-polymer man . . 1 .
+#
+#
+loop_
+_pdbx_entity_nonpoly.entity_id
+_pdbx_entity_nonpoly.name
+_pdbx_entity_nonpoly.comp_id
+_pdbx_entity_nonpoly.ma_model_mode
+1 . A1AOD .
+#
+#
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+_struct_asym.details
+A 1 'Model subunit A'
+#
+#
+loop_
+_pdbx_nonpoly_scheme.asym_id
+_pdbx_nonpoly_scheme.entity_id
+_pdbx_nonpoly_scheme.mon_id
+_pdbx_nonpoly_scheme.ndb_seq_num
+_pdbx_nonpoly_scheme.pdb_seq_num
+_pdbx_nonpoly_scheme.auth_seq_num
+_pdbx_nonpoly_scheme.auth_mon_id
+_pdbx_nonpoly_scheme.pdb_strand_id
+_pdbx_nonpoly_scheme.pdb_ins_code
+A 1 A1AOD 1 1 1 A1AOD A .
+#
+#
+loop_
+_ma_data.id
+_ma_data.name
+_ma_data.content_type
+_ma_data.content_type_other_details
+1 . target .
+2 Model 'model coordinates' .
+#
+#
+loop_
+_ma_target_entity.entity_id
+_ma_target_entity.data_id
+_ma_target_entity.origin
+1 1 designed
+#
+#
+loop_
+_ma_target_entity_instance.asym_id
+_ma_target_entity_instance.entity_id
+_ma_target_entity_instance.details
+A 1 'Model subunit A'
+#
+#
+loop_
+_ma_model_list.ordinal_id
+_ma_model_list.model_id
+_ma_model_list.model_group_id
+_ma_model_list.model_name
+_ma_model_list.model_group_name
+_ma_model_list.data_id
+_ma_model_list.model_type
+_ma_model_list.model_type_other_details
+1 1 1 Model 'All models' 2 'Ab initio model' .
+#
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.label_entity_id
+_atom_site.auth_asym_id
+_atom_site.auth_comp_id
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C0 . A1AOD . 1 ? A 3.50950 -3.75347 2.00763 1 1 A A1AOD 65.791 1
+HETATM 2 C C1 . A1AOD . 1 ? A 3.60936 -2.28006 1.92663 1 1 A A1AOD 68.121 1
+HETATM 3 O O2 . A1AOD . 1 ? A 4.06072 -1.75377 0.69794 1 1 A A1AOD 64.521 1
+HETATM 4 C C3 . A1AOD . 1 ? A 3.19260 -1.84857 -0.41293 1 1 A A1AOD 67.280 1
+HETATM 5 C C4 . A1AOD . 1 ? A 4.45598 -1.69696 2.99124 1 1 A A1AOD 70.525 1
+HETATM 6 N N5 . A1AOD . 1 ? A 5.77346 -1.78733 2.86681 1 1 A A1AOD 69.158 1
+HETATM 7 C C6 . A1AOD . 1 ? A 6.60266 -1.32190 3.82812 1 1 A A1AOD 69.262 1
+HETATM 8 C C7 . A1AOD . 1 ? A 6.11119 -0.73040 4.99863 1 1 A A1AOD 67.778 1
+HETATM 9 C C8 . A1AOD . 1 ? A 4.72082 -0.63389 5.15363 1 1 A A1AOD 67.154 1
+HETATM 10 C C9 . A1AOD . 1 ? A 3.89511 -1.10502 4.11963 1 1 A A1AOD 73.021 1
+HETATM 11 C C10 . A1AOD . 1 ? A 2.46731 -0.96380 4.25856 1 1 A A1AOD 72.801 1
+HETATM 12 N N11 . A1AOD . 1 ? A 1.70126 -1.82870 4.96827 1 1 A A1AOD 69.728 1
+HETATM 13 C C12 . A1AOD . 1 ? A 2.14177 -3.06649 5.70517 1 1 A A1AOD 68.885 1
+HETATM 14 C C13 . A1AOD . 1 ? A 2.20553 -2.88383 7.16010 1 1 A A1AOD 67.551 1
+HETATM 15 C C14 . A1AOD . 1 ? A 1.66130 0.01844 3.61567 1 1 A A1AOD 72.966 1
+HETATM 16 C C15 . A1AOD . 1 ? A 2.00835 1.11355 2.62711 1 1 A A1AOD 72.198 1
+HETATM 17 C C16 . A1AOD . 1 ? A 2.46321 2.50888 3.24010 1 1 A A1AOD 72.520 1
+HETATM 18 C C17 . A1AOD . 1 ? A 2.72399 3.44697 2.07084 1 1 A A1AOD 69.446 1
+HETATM 19 C C18 . A1AOD . 1 ? A 3.76779 2.42166 3.94935 1 1 A A1AOD 68.529 1
+HETATM 20 C C19 . A1AOD . 1 ? A 1.42399 3.11640 4.17363 1 1 A A1AOD 73.342 1
+HETATM 21 O O20 . A1AOD . 1 ? A 0.37176 3.96399 3.53914 1 1 A A1AOD 75.186 1
+HETATM 22 C C21 . A1AOD . 1 ? A -0.08594 5.21440 4.04203 1 1 A A1AOD 76.735 1
+HETATM 23 C C22 . A1AOD . 1 ? A -1.20577 5.92582 3.29788 1 1 A A1AOD 79.690 1
+HETATM 24 N N23 . A1AOD . 1 ? A -1.32031 5.39905 1.96806 1 1 A A1AOD 76.583 1
+HETATM 25 N N24 . A1AOD . 1 ? A -2.27081 5.96269 1.12553 1 1 A A1AOD 79.297 1
+HETATM 26 C C25 . A1AOD . 1 ? A -3.21369 5.18981 0.49851 1 1 A A1AOD 80.128 1
+HETATM 27 C C26 . A1AOD . 1 ? A -3.24175 3.71533 0.78564 1 1 A A1AOD 81.300 1
+HETATM 28 N N27 . A1AOD . 1 ? A -3.55746 2.92390 -0.39113 1 1 A A1AOD 75.983 1
+HETATM 29 C C28 . A1AOD . 1 ? A -2.63972 2.18052 -1.05422 1 1 A A1AOD 78.751 1
+HETATM 30 C C29 . A1AOD . 1 ? A -3.17752 1.28200 -2.12169 1 1 A A1AOD 78.668 1
+HETATM 31 C C30 . A1AOD . 1 ? A -3.00897 1.79797 -3.58040 1 1 A A1AOD 79.181 1
+HETATM 32 C C31 . A1AOD . 1 ? A -3.84772 1.03278 -4.55790 1 1 A A1AOD 77.909 1
+HETATM 33 C C32 . A1AOD . 1 ? A -3.15397 3.28090 -3.71397 1 1 A A1AOD 78.607 1
+HETATM 34 N N33 . A1AOD . 1 ? A -2.55947 -0.03448 -1.91981 1 1 A A1AOD 75.024 1
+HETATM 35 C C34 . A1AOD . 1 ? A -3.12401 -0.89335 -1.00126 1 1 A A1AOD 78.062 1
+HETATM 36 C C35 . A1AOD . 1 ? A -2.57109 -2.25166 -0.63059 1 1 A A1AOD 74.792 1
+HETATM 37 F F36 . A1AOD . 1 ? A -2.14052 -2.94055 -1.74969 1 1 A A1AOD 73.959 1
+HETATM 38 C C37 . A1AOD . 1 ? A -1.45057 -2.02060 0.36200 1 1 A A1AOD 69.707 1
+HETATM 39 C C38 . A1AOD . 1 ? A -0.83085 -3.32323 0.80051 1 1 A A1AOD 70.819 1
+HETATM 40 N N39 . A1AOD . 1 ? A -1.89326 -4.15995 1.37067 1 1 A A1AOD 64.021 1
+HETATM 41 C C40 . A1AOD . 1 ? A -1.78679 -4.62031 2.66395 1 1 A A1AOD 66.031 1
+HETATM 42 C C41 . A1AOD . 1 ? A -2.90221 -4.87806 3.45051 1 1 A A1AOD 61.657 1
+HETATM 43 C C42 . A1AOD . 1 ? A -3.73697 -5.15123 4.20923 1 1 A A1AOD 58.166 1
+HETATM 44 C C43 . A1AOD . 1 ? A -4.88695 -5.43442 4.98603 1 1 A A1AOD 53.102 1
+HETATM 45 N N44 . A1AOD . 1 ? A -4.86181 -6.79905 5.40598 1 1 A A1AOD 53.864 1
+HETATM 46 C C45 . A1AOD . 1 ? A -5.00326 -7.83229 4.44496 1 1 A A1AOD 55.900 1
+HETATM 47 C C46 . A1AOD . 1 ? A -4.34639 -7.17388 6.67256 1 1 A A1AOD 58.011 1
+HETATM 48 C C47 . A1AOD . 1 ? A -6.14276 -5.15528 4.15916 1 1 A A1AOD 56.409 1
+HETATM 49 C C48 . A1AOD . 1 ? A -4.95554 -4.50650 6.17816 1 1 A A1AOD 53.969 1
+HETATM 50 O O49 . A1AOD . 1 ? A -0.68435 -4.75329 3.19129 1 1 A A1AOD 59.002 1
+HETATM 51 C C50 . A1AOD . 1 ? A -3.03462 -4.41596 0.52044 1 1 A A1AOD 72.733 1
+HETATM 52 C C51 . A1AOD . 1 ? A -3.64070 -3.15076 0.02520 1 1 A A1AOD 71.974 1
+HETATM 53 O O52 . A1AOD . 1 ? A -4.15470 -0.50547 -0.41344 1 1 A A1AOD 73.620 1
+HETATM 54 C C53 . A1AOD . 1 ? A -1.29062 -0.34068 -2.60790 1 1 A A1AOD 77.016 1
+HETATM 55 O O54 . A1AOD . 1 ? A -1.47093 2.17117 -0.69939 1 1 A A1AOD 78.173 1
+HETATM 56 C C55 . A1AOD . 1 ? A -4.31459 3.40722 1.90755 1 1 A A1AOD 77.250 1
+HETATM 57 C C56 . A1AOD . 1 ? A -4.36634 1.91460 2.35399 1 1 A A1AOD 78.074 1
+HETATM 58 C C57 . A1AOD . 1 ? A -3.23915 1.68832 3.29058 1 1 A A1AOD 74.856 1
+HETATM 59 N N58 . A1AOD . 1 ? A -3.24327 0.35142 3.82967 1 1 A A1AOD 68.115 1
+HETATM 60 C C59 . A1AOD . 1 ? A -4.51372 -0.08204 4.42489 1 1 A A1AOD 75.480 1
+HETATM 61 C C60 . A1AOD . 1 ? A -5.69772 0.27933 3.51016 1 1 A A1AOD 72.372 1
+HETATM 62 O O61 . A1AOD . 1 ? A -5.62077 1.67820 3.05110 1 1 A A1AOD 73.012 1
+HETATM 63 O O62 . A1AOD . 1 ? A -4.06881 5.68406 -0.26107 1 1 A A1AOD 77.064 1
+HETATM 64 C C63 . A1AOD . 1 ? A -2.13814 7.40637 0.89966 1 1 A A1AOD 77.230 1
+HETATM 65 C C64 . A1AOD . 1 ? A -2.01455 8.12150 2.26624 1 1 A A1AOD 78.302 1
+HETATM 66 C C65 . A1AOD . 1 ? A -0.97393 7.46775 3.18661 1 1 A A1AOD 78.205 1
+HETATM 67 O O66 . A1AOD . 1 ? A 0.37161 5.76854 5.06824 1 1 A A1AOD 73.911 1
+HETATM 68 C C67 . A1AOD . 1 ? A 0.36044 -0.30275 4.03675 1 1 A A1AOD 66.383 1
+HETATM 69 C C68 . A1AOD . 1 ? A 0.42702 -1.43134 4.85698 1 1 A A1AOD 68.250 1
+HETATM 70 C C69 . A1AOD . 1 ? A -0.78369 -1.98214 5.38504 1 1 A A1AOD 64.634 1
+HETATM 71 C C70 . A1AOD . 1 ? A -1.98431 -1.35683 5.01984 1 1 A A1AOD 64.063 1
+HETATM 72 C C71 . A1AOD . 1 ? A -2.02570 -0.23799 4.18615 1 1 A A1AOD 68.265 1
+HETATM 73 C C72 . A1AOD . 1 ? A -0.83352 0.30438 3.68027 1 1 A A1AOD 71.103 1
+#
+#
+loop_
+_atom_type.symbol
+C
+F
+N
+O
+#
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.name
+_ma_qa_metric.description
+_ma_qa_metric.type
+_ma_qa_metric.mode
+_ma_qa_metric.type_other_details
+_ma_qa_metric.software_group_id
+1 pLDDT 'Predicted lddt' pLDDT local . .
+#
+#
+loop_
+_ma_qa_metric_local.ordinal_id
+_ma_qa_metric_local.model_id
+_ma_qa_metric_local.label_asym_id
+_ma_qa_metric_local.label_seq_id
+_ma_qa_metric_local.label_comp_id
+_ma_qa_metric_local.metric_id
+_ma_qa_metric_local.metric_value
+1 1 A 1 A1AOD 1 70.840
+#
